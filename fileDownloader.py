@@ -5,7 +5,7 @@ import hashlib
 import pyfiglet 
 from coolStuff import colourCode  #colourCode is a library that i developed
 
-# for every string.pprint() statement just use a normal print f
+# for every string.pprint() statement just use a normal print
 
 # initializing colour code 
 string = colourCode.beautifulPrint()
