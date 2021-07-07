@@ -3,7 +3,7 @@ from tkinter import *
 from pytube import YouTube
 import hashlib
 import pyfiglet 
-from coolStuff import colourCode  #colourCode is a library that i developed
+from coolStuff import colourCode  #colourCode is a library that i developed and only exists on my machine
 
 # for every string.pprint() statement just use a normal print
 
@@ -38,7 +38,7 @@ class Login():
                 string.pprint("You have been logged in", None, "success")
                 return True
             else:
-                string.pprint("Something went wrong, You were not logged in...", None, "error")
+                string.pprint("Something went wrong, you were not logged in...", None, "error")
                 return False
 
    
