@@ -53,7 +53,7 @@ class YouTubeFileDownloader():
             string.pprint(stringg=e, colourr=None, calll="error")
             
         print("\n")
-        print("##########################- VIDEO DATA -#############################")
+        print("##########################- VIDEO DATA -#############################\n")
         try :
             print(f"Video Title : {ytVideo.title}")
             print(f"Video Thumbnail URL : {ytVideo.thumbnail_url}")
@@ -63,7 +63,7 @@ class YouTubeFileDownloader():
         except Exception as e:
             string.pprint(stringg=e, colourr=None, calll="error")
 
-        print("######################################################################")
+        print("\n######################################################################")
 
         try:
             ytVideo.streams.first().download(output_path=self.SAVE_PATH)
