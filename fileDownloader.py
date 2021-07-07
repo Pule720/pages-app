@@ -20,7 +20,7 @@ string.pprint(DESCRIPTION, None, "info")
 
 class Login():
     def isValid(self, name: str, password: str):
-        # sha256 algorithm 
+        
         users = {
 
             "Deadsec" : b'\x93j\x18\\\xaa\xa2f\xbb\x9c\xbe\x98\x1e\x9e\x05\xcbx\xcds+\x0b2\x80\xeb\x94D\x12\xbbo\x8f\x8f\x07\xaf'       
