@@ -17,7 +17,7 @@ woo = pyfiglet.print_figlet(WELCOME)
 
 string.pprint(DESCRIPTION, None, "info")
 
-
+# hashing passwords for security
 class Login():
     def isValid(self, name: str, password: str):
         
@@ -44,7 +44,7 @@ class Login():
    
 
 class YouTubeFileDownloader():
-    SAVE_PATH = "C:/Users/pulen/OneDrive/Desktop/youtubeVids"
+    SAVE_PATH = "C:/Users/pulen/OneDrive/Desktop/youtubeVids"  #change this to your desired path you want your video to be downloaded  
 
     def downloadYoutubeFile(self, videoUrl: str):
         try:
